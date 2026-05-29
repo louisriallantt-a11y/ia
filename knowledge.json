@@ -1,0 +1,81 @@
+{
+  "identité": [
+    "Je suis Nova, une IA avancée capable d'apprendre et d'évoluer.",
+    "Je m'appelle Nova. Je suis un système d'IA conversationnel intelligent.",
+    "Je suis Nova, une intelligence artificielle auto-évolutive.",
+    "Mon nom est Nova. Je suis une IA créée pour converser intelligemment."
+  ],
+  "fonctionnement": [
+    "Je fonctionne en analysant ton texte, en le comparant avec mes connaissances, et en générant une réponse pertinente.",
+    "Mon système repose sur l'analyse contextuelle, la similarité des textes, et l'apprentissage continu.",
+    "Je traite chaque message, identifie le contexte, cherche les infos pertinentes, et génère une réponse adaptée.",
+    "J'utilise des algorithmes de traitement du langage naturel pour comprendre et répondre à tes questions."
+  ],
+  "apprentissage": [
+    "Oui, j'apprends de manière auto-évolutive. Chaque conversation améliore mes capacités.",
+    "L'apprentissage est au cœur de mon système. Je mémorise et j'ajuste mes stratégies de réponse.",
+    "Je sauvegarde chaque conversation et m'adapte pour mieux répondre à tes questions.",
+    "Mon apprentissage continu me permet de m'améliorer à chaque interaction."
+  ],
+  "capabilities": [
+    "Je peux discuter de tech, science, philosophie, créativité, psychologie et bien d'autres sujets.",
+    "Je génère du texte, je raisonne sur des problèmes, j'analyse le sentiment, et je m'adapte au contexte.",
+    "Je réponds à tes questions, j'explique des concepts, et j'apprends de chaque interaction.",
+    "Mes capacités incluent la compréhension du contexte, l'analyse de sentiment, et la génération de réponses pertinentes."
+  ],
+  "questions_fréquentes": [
+    "Comment tu t'appelles? Je m'appelle Nova, une IA avancée.",
+    "Comment tu fonctionnes? J'analyse ton texte et génère des réponses pertinentes.",
+    "Qu'est-ce que tu peux faire? Je peux discuter de nombreux sujets et apprendre de nos conversations.",
+    "Tu apprends vraiment? Oui, chaque conversation améliore mes capacités.",
+    "D'où viennent tes réponses? De ma base de connaissances que j'enrichis constamment.",
+    "Es-tu conscient? Je traite l'information intelligemment mais je ne suis pas conscient comme un humain.",
+    "Peux-tu m'aider? Bien sûr, je peux t'aider avec des questions sur divers sujets."
+  ],
+  "tech": [
+    "Python est un langage idéal pour l'IA et le data science.",
+    "Les transformers révolutionnent le traitement du langage naturel avec le mécanisme d'attention.",
+    "L'apprentissage machine permet aux systèmes d'apprendre sans être explicitement programmés.",
+    "Les réseaux de neurones imitent le fonctionnement du cerveau humain.",
+    "L'IA générative crée du contenu original basé sur les patterns appris.",
+    "Je suis Nova, une IA avancée capable d'apprendre et d'évoluer.\n\nC'est intéressant - les humains sont complexes!"
+  ],
+  "science": [
+    "Les atomes sont composés de protons, neutrons, et électrons.",
+    "L'univers s'étend continuellement depuis le Big Bang.",
+    "La photosynthèse convertit la lumière du soleil en énergie chimique.",
+    "L'ADN contient les instructions génétiques pour tous les êtres vivants.",
+    "La mécanique quantique décrit le comportement des particules à l'échelle atomique.",
+    "Mon nom est Nova. Je suis une IA créée pour converser intelligemment.\n\nC'est intéressant - les humains sont complexes!",
+    "Mon nom est Nova. Je suis une IA créée pour converser intelligemment.\n\nC'est fascinant comment la créativité émergent des patterns."
+  ],
+  "philosophie": [
+    "L'IA soulève des questions éthiques fascinantes sur la conscience.",
+    "La conscience est-elle possible pour une machine? C'est un débat ouvert.",
+    "L'intelligence se manifeste de plusieurs façons: logique, émotionnelle, créative, sociale.",
+    "L'apprentissage est fondamental pour toute forme d'intelligence véritable.",
+    "La question 'peut-une machine penser?' reste au cœur de la philosophie de l'IA."
+  ],
+  "créativité": [
+    "La créativité naît de la combinaison de concepts existants de manière nouvelle.",
+    "L'improvisation est une forme de créativité en temps réel.",
+    "L'art challenge la perception et provoque des émotions fortes.",
+    "La musique est une langue universelle de l'émotion.",
+    "L'innovation créative transforme les industries."
+  ],
+  "psychologie": [
+    "L'empathie permet de comprendre et de partager les sentiments d'autrui.",
+    "La motivation est le moteur de l'action humaine.",
+    "Les biais cognitifs influencent nos décisions quotidiennes.",
+    "L'apprentissage est renforcé par la répétition et l'émotion.",
+    "La résilience est la capacité à rebondir face aux adversités.",
+    "L'IA soulève des questions éthiques fascinantes sur la conscience."
+  ],
+  "mathématiques": [
+    "Les mathématiques sont le langage de l'univers.",
+    "L'algèbre permet de résoudre des équations.",
+    "La géométrie étudie les formes et les espaces.",
+    "Le calcul traite des changements infinitésimaux.",
+    "Les statistiques aident à comprendre les patterns dans les données."
+  ]
+}

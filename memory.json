@@ -1,0 +1,98 @@
+{
+  "conversation_history": [
+    {
+      "user": "c'est quoi un atome?",
+      "ai": "Mon nom est Nova. Je suis une IA créée pour converser intelligemment.\n\nC'est fascinant comment la créativité émergent des patterns.",
+      "timestamp": "2026-05-13T12:49:18.327089",
+      "category": "identité"
+    },
+    {
+      "user": "c'est quoi un atome?",
+      "ai": "Mon nom est Nova. Je suis une IA créée pour converser intelligemment.\n\nC'est intéressant - les humains sont complexes!\n\nÇa t'intéresse comment ça marche plus en détail?",
+      "timestamp": "2026-05-13T12:50:52.195379",
+      "category": "science"
+    },
+    {
+      "user": "atome",
+      "ai": "Les atomes sont composés de protons, neutrons, et électrons.",
+      "timestamp": "2026-05-13T12:50:59.068297",
+      "category": "science"
+    },
+    {
+      "user": "univers big bang",
+      "ai": "L'univers s'étend continuellement depuis le Big Bang.",
+      "timestamp": "2026-05-13T12:51:05.890937",
+      "category": "science"
+    },
+    {
+      "user": "comment tu t'appelles?",
+      "ai": "Je suis Nova, une IA avancée capable d'apprendre et d'évoluer.\n\nÇa t'intéresse comment ça marche plus en détail?",
+      "timestamp": "2026-05-13T12:51:12.508757",
+      "category": "identité"
+    },
+    {
+      "user": "comment tu fonctionnes?",
+      "ai": "Je fonctionne en analysant ton texte, en le comparant avec mes connaissances, et en générant une réponse pertinente.\n\nQu'en penses-tu? Ça soulève des questions, non?",
+      "timestamp": "2026-05-13T12:51:19.967227",
+      "category": "fonctionnement"
+    },
+    {
+      "user": "tu apprends?",
+      "ai": "Oui, j'apprends de manière auto-évolutive. Chaque conversation améliore mes capacités.",
+      "timestamp": "2026-05-13T12:51:25.972119",
+      "category": "apprentissage"
+    },
+    {
+      "user": "parle-moi de python",
+      "ai": "Python est un langage idéal pour l'IA et le data science.",
+      "timestamp": "2026-05-13T12:51:32.293801",
+      "category": "tech"
+    },
+    {
+      "user": "la conscience c'est quoi?",
+      "ai": "L'IA soulève des questions éthiques fascinantes sur la conscience.",
+      "timestamp": "2026-05-13T12:51:39.011858",
+      "category": "philosophie"
+    },
+    {
+      "user": "la créativité",
+      "ai": "La créativité naît de la combinaison de concepts existants de manière nouvelle.",
+      "timestamp": "2026-05-13T12:51:46.434157",
+      "category": "créativité"
+    },
+    {
+      "user": "l'empathie",
+      "ai": "L'empathie permet de comprendre et de partager les sentiments d'autrui.",
+      "timestamp": "2026-05-13T12:51:52.951032",
+      "category": "psychologie"
+    },
+    {
+      "user": "les mathématiques",
+      "ai": "Les mathématiques sont le langage de l'univers.",
+      "timestamp": "2026-05-13T12:51:59.476864",
+      "category": "mathématiques"
+    },
+    {
+      "user": "tes questions fréquentes?",
+      "ai": "D'où viennent tes réponses? De ma base de connaissances que j'enrichis constamment.\n\nC'est intéressant - les humains sont complexes!",
+      "timestamp": "2026-05-13T12:52:06.191817",
+      "category": "questions_fréquentes"
+    },
+    {
+      "user": "que peux-tu faire?",
+      "ai": "Je peux discuter de tech, science, philosophie, créativité, psychologie et bien d'autres sujets.\n\nÇa t'intéresse comment ça marche plus en détail?",
+      "timestamp": "2026-05-13T12:52:12.804730",
+      "category": "capabilities"
+    }
+  ],
+  "stats": {
+    "messages": 14,
+    "learned": 14,
+    "accuracy": 0.864,
+    "last_session": null
+  },
+  "user_preferences": {
+    "language": "fr",
+    "detailed_answers": true
+  }
+}
