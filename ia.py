@@ -105,7 +105,7 @@ if __name__ == "__main__":
     ia = ReseauNeuronalTexte()
     
     # Nom du fichier où tu vas mettre la base de données de texte
-    fichier_donnees = "connaissances.txt"
+    fichier_donnees = "apprentissage.txt"
     
     print("--- CHATBOT NEURONAL PUR ---")
     print("[1] Entraînement de la matrice...")
