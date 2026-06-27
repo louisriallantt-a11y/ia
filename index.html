@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon IA Symbolique</title>
+</head>
+<body>
+    <div id="login-box">
+        <input type="password" id="pass" placeholder="Mot de passe">
+        <button onclick="checkAuth()">Accéder</button>
+    </div>
+
+    <div id="app" style="display:none;">
+        <input type="text" id="query" placeholder="Rechercher un fait...">
+        <button onclick="rechercher()">Chercher</button>
+        <div id="resultat"></div>
+    </div>
+
+    <script>
+        let baseDeConnaissances = [];
+
+        // Charger les données (votre fichier data.json)
+        fetch('data.json').then(r => r.json()).then(data => baseDeConnaissances = data);
+
+        function checkAuth() {
+            if(document.getElementById('pass').value === "VOTRE_MOT_DE_PASSE") {
+                document.getElementById('login-box').style.display = 'none';
+                document.getElementById('app').style.display = 'block';
+            }
+        }
+
+        function rechercher() {
+            const q = document.getElementById('query').value.toLowerCase();
+            const res = baseDeConnaissances.find(item => item.sujet.toLowerCase().includes(q));
+            document.getElementById('resultat').innerText = res ? res.info : "Non trouvé";
+        }
+    </script>
+</body>
+</html>
