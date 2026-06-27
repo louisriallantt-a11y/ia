@@ -2,42 +2,42 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>IA Symbolique Sans JS</title>
+    <title>IA Symbolique Locale</title>
     <style>
-        /* Système de masquage */
-        .reponse { display: none; }
+        body { font-family: sans-serif; padding: 40px; background: #f4f4f4; }
+        .container { background: white; padding: 20px; border-radius: 8px; max-width: 500px; margin: auto; }
         
-        /* Logique d'affichage par clic sur checkbox */
-        #macron:checked ~ .reponse-macron { display: block; }
-        #meteo:checked ~ .reponse-meteo { display: block; }
+        /* La zone de saisie */
+        input[type="text"] { width: 100%; padding: 10px; margin: 10px 0; box-sizing: border-box; }
         
-        body { font-family: sans-serif; padding: 50px; }
-        .input-box { margin-bottom: 20px; }
+        /* Masquage par défaut des réponses */
+        .reponse { display: none; padding: 15px; background: #e7f3ff; border-left: 5px solid #2196F3; margin-top: 10px; }
+        
+        /* Affichage quand le lien correspondant est activé */
+        #macron:target, #meteo:target { display: block; }
     </style>
 </head>
 <body>
 
-    <h1>Mon IA Symbolique (Statique)</h1>
+<div class="container">
+    <h2>Interface IA Locale</h2>
     
-    <div class="input-box">
-        <label>Que cherchez-vous ?</label><br>
-        <!-- Les cases à cocher servent de boutons de recherche -->
-        <input type="radio" name="search" id="macron"> <label for="macron">Qui est le président ?</label><br>
-        <input type="radio" name="search" id="meteo"> <label for="meteo">Quel temps fait-il ?</label>
+    <label>Saisissez votre sujet (ex: macron, meteo) :</label>
+    <input type="text" placeholder="Entrez un mot-clé...">
+    
+    <div style="margin-top: 10px;">
+        <a href="#macron"><button>Rechercher Macron</button></a>
+        <a href="#meteo"><button>Rechercher Météo</button></a>
     </div>
 
-    <hr>
-
-    <!-- Zone de réponse : Tu écris tes variantes ici, elles sont affichées selon le clic -->
-    <div class="reponse reponse-macron">
-        <p><strong>Option 1 :</strong> Emmanuel Macron est le président de la République.</p>
-        <p><strong>Option 2 :</strong> C'est actuellement Emmanuel Macron qui dirige la France.</p>
+    <div id="macron" class="reponse">
+        <strong>Réponse :</strong> Emmanuel Macron est le président de la République française en 2026.
     </div>
 
-    <div class="reponse reponse-meteo">
-        <p><strong>Option 1 :</strong> Il fait beau sur Contes.</p>
-        <p><strong>Option 2 :</strong> Le ciel est dégagé aujourd'hui à Contes.</p>
+    <div id="meteo" class="reponse">
+        <strong>Réponse :</strong> Le temps à Contes est actuellement ensoleillé avec des températures stables.
     </div>
+</div>
 
 </body>
 </html>
