@@ -2,42 +2,40 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>IA Symbolique Locale</title>
+    <title>IA Symbolique Pure</title>
     <style>
-        body { font-family: sans-serif; padding: 40px; background: #f4f4f4; }
-        .container { background: white; padding: 20px; border-radius: 8px; max-width: 500px; margin: auto; }
-        
-        /* La zone de saisie */
-        input[type="text"] { width: 100%; padding: 10px; margin: 10px 0; box-sizing: border-box; }
-        
-        /* Masquage par défaut des réponses */
-        .reponse { display: none; padding: 15px; background: #e7f3ff; border-left: 5px solid #2196F3; margin-top: 10px; }
-        
-        /* Affichage quand le lien correspondant est activé */
-        #macron:target, #meteo:target { display: block; }
+        /* La structure de la réponse est définie ici comme un assemblage de morceaux */
+        .resultat::after {
+            content: attr(data-sujet) " est le " attr(data-role) " de la " attr(data-lieu) ".";
+            display: block;
+            padding: 10px;
+            background: #eee;
+        }
+
+        /* Masquage initial */
+        .resultat { display: none; }
+
+        /* Affichage au clic */
+        #macron:target ~ .reponse-macron { display: block; }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <h2>Interface IA Locale</h2>
-    
-    <label>Saisissez votre sujet (ex: macron, meteo) :</label>
-    <input type="text" placeholder="Entrez un mot-clé...">
-    
-    <div style="margin-top: 10px;">
-        <a href="#macron"><button>Rechercher Macron</button></a>
-        <a href="#meteo"><button>Rechercher Météo</button></a>
+    <div id="data-macron" 
+         data-sujet="Emmanuel Macron" 
+         data-role="président" 
+         data-lieu="République française">
     </div>
 
-    <div id="macron" class="reponse">
-        <strong>Réponse :</strong> Emmanuel Macron est le président de la République française en 2026.
-    </div>
+    <h1>Interface IA</h1>
+    <input type="text" placeholder="Tapez 'macron'...">
+    <a href="#macron"><button>Générer</button></a>
 
-    <div id="meteo" class="reponse">
-        <strong>Réponse :</strong> Le temps à Contes est actuellement ensoleillé avec des températures stables.
+    <div id="macron" class="resultat reponse-macron" 
+         data-sujet="Emmanuel Macron" 
+         data-role="président" 
+         data-lieu="République française">
     </div>
-</div>
 
 </body>
 </html>
