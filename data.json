@@ -1,10 +1,8 @@
-[
-    {
-        "sujet": "Président France",
-        "info": "Emmanuel Macron est le président de la République française en 2026."
-    },
-    {
-        "sujet": "Météo Contes",
-        "info": "Le climat à Contes est méditerranéen."
-    }
-]
+{
+  "president": {
+    "personne": "Emmanuel Macron",
+    "role": "président",
+    "lieu": "République française",
+    "action": "gouverne"
+  }
+}
